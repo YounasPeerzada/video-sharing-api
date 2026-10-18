@@ -144,4 +144,10 @@ const verifyAccessToken = async (token) => {
   return user;
 };
 
-export { registerUser, loginUser, logoutUser, refreshAccessToken, verifyAccessToken };
+export {
+  registerUser,
+  loginUser,
+  logoutUser,
+  refreshAccessToken,
+  verifyAccessToken,
+};
